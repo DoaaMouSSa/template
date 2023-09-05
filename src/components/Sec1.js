@@ -1,12 +1,19 @@
 function Sec1() {
         return (
-            <div className="blog-post-intro">
-                <h2>I've become a React developer!</h2>
-                <div>
-                    <p>I've completed the React Basics course and I'm happy to announce that I'm now a Junior React Developer!</p>
-                    <p className="link">Read more...</p>
-                </div>
-            </div>
+        <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#id">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#id">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#id">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#id">Disabled</a>
+        </li>
+      </ul>
         );
     };
     
